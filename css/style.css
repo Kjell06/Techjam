@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    background: yellow;
+    height: 100vh;
+}
+
+header{
+    min-height: 10rem;
+    height: 10rem;
+    background: white;
+}
+
+nav{
+    height: 100%;
+}
+
+.navigatie{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 10rem;
+    margin-left:-65rem;
+    font-family:sans-serif;
+}
+
+.navigatie li{
+    display: flex;
+    gap: 2rem;
+}
+
+.navigatie li a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.navigatie li a:hover{
+    color: red;
+}
+
+.navigatie img{
+    object-fit: contain;
+    height: 5rem;
+}
+
+.headerimg{
+    width:7rem;
+}
+
+.nieuws{
+    color:red;
+}
+
+.headericons img{
+    height:7rem;
+    
+}
